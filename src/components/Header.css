@@ -1,0 +1,47 @@
+/* Header */
+ .header
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ff4820;
+    color: white;
+  }
+  
+.branding h1
+  {
+    font-size: 1.5rem;
+    color:black;
+    font-family: sans-serif;
+   
+  }
+.branding
+{
+    text-align: left;
+}  
+nav
+ {
+    background-color:#ff4820 ;
+ }  
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-list a:hover {
+    color: #007bff;
+  }
+  

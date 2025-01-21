@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.hero
+ {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  overflow: hidden;
+ }
+.se_images
+ {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Space between images */
+  flex-wrap: wrap; /* Allows wrapping to the next row if necessary */
+  margin-top: 1.5rem;
+ }
+ .image-item
+  {
+    height: 150px;
+    width:90px;
+    text-align: center; /* Center the text below each image */
+  }
+
+.image-item img {
+  max-width: 90%; /* Ensure images scale to fit their container */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+.image-item:last-child {
+  margin-top: 10px; /* Move the last image and its description downward */
+}
+
+.description {
+  margin-top: 10px; /* Space between the image and its description */
+  font-size: 8px; /* Font size for the description */
+  color: #555; /* Gray color for description text */
+}
+.image-item:last-child .description{
+  margin-top: 10px; /* Remove the top margin from the last description */
+}
+.image-item:nth-child(3) .description {
+  margin-top: 10px; /* Remove the top margin from the last description */
+}
+.hero-content
+ {
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+ }
+  
+.hero-content h2 
+  {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+.hero-content p {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom:1rem;
+  }
+  
+
+  
+  .badge span {
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    z-index: 10;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .headline {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+  
+  .hero-image img {
+    position: absolute; /* Make the image overlay */
+    top: 50%; /* Position the image vertically */
+    width:50%;
+    right: 0; /* Align the image to the right */
+    transform: translateY(-50%); /* Center vertically */
+    height: 400px; /* Adjust as needed */
+    z-index: 2; /* Bring image above the content */
+  }
+

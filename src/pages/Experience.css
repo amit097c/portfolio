@@ -1,0 +1,105 @@
+.experience-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.left-column {
+  width: 50%;
+}
+
+.visualization {
+  position: relative; /* Make this container the reference for absolute positioning */
+  text-align: center;
+  margin: auto;
+  width: 300px; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
+}
+
+.visualization-image {
+  width: 350px; /* Adjust size of the main image */
+  height: 200px;
+  margin-top:60px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  width: 50px; /* Logo size */
+  height: 50px;
+  z-index: 2;
+}
+.tech-logos
+ {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+ }
+.t_logo
+ {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+ }
+.right-column {
+  width: 45%;
+}
+
+.right-column h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.right-column p {
+  margin: 5px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+
+
+.experience-details {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+
+}
+
+.experience-details li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items:flex-start;
+}
+
+.experience-details li::before {
+  content: "✅";
+  color: green;
+  margin-right: 10px;
+}
+
+.skills h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.skills p {
+  font-size: 1em;
+  color: #555;
+  
+}

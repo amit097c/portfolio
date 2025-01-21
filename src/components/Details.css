@@ -1,0 +1,77 @@
+/* Details Section */
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.marquee-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  white-space: nowrap; /* Prevents content from wrapping to a new line */
+}
+.marquee {
+  display: inline-block;
+  width: 100%; /* Full-width container */
+  background-color: #f8f8f8;
+  animation: scroll-left 10s linear infinite;
+}
+.marquee-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.details .projects,
+.details .testimonials,
+.details .contact {
+  text-align: center;
+  /* max-width: 30%; */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Prevents cards from shrinking */
+  width: 300px; /*Fixed width for consistency */
+  word-wrap: break-word; /* Break long words to fit within the container */
+  overflow: hidden;      /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add "..." for truncated text */
+  white-space: normal; 
+}
+
+/* Animation keyframes */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+.details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.details p {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ff4820;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
