@@ -10,8 +10,7 @@ const Header1 =() =>
         <div className="branding">
             <h1> Software Engineer | Master of Applied Computing</h1>
             <h3>Hi, I'm Amit 👋</h3>
-        
-            <p> Tester → Developer → Engineer</p>
+            <p>Tester → Developer → Engineer</p>
         </div>
 
         <ToggleButton />

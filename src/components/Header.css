@@ -25,7 +25,8 @@
     font-size: 1rem;
     font-family: Gill Sans, sans-serif;
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 10px;
+    max-width: 250px;
    
   }
 .branding
