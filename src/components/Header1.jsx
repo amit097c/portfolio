@@ -6,11 +6,12 @@ import ToggleButton from './headerToggle.jsx'
 const Header1 =() => 
  (
     <header className="header">
+    
         <div className="branding">
-            <h1> Software Engineer</h1>
+            <h1> Software Engineer | Master of Applied Computing</h1>
             <h3>Hi, I'm Amit 👋</h3>
-            <p> Software Engineer & Problem Solver | Master of Applied Computing
-                    Graduate</p>
+        
+            <p> Tester → Developer → Engineer</p>
         </div>
 
         <ToggleButton />

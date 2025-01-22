@@ -12,7 +12,22 @@ const Details =() =>
                                 <p>Explore three distinct projects to see how I can help you.</p>
                                 <Link to="/projects" className="button">Learn more</Link>
                             </div>               
-                            <div class="testimonials">
+                            <div className="testimonials">
+                                <h3>Achievements</h3>
+                                <p>Multiple winnings in tech as well as public speaking forums</p>
+                                <Link to="/achievements" className="button">Learn more</Link>
+                            </div>
+                            <div className="contact">
+                                <h3>Contact</h3>
+                                <p>Get in touch and share your problem and get your conceptual solution  </p>
+                                <a href="mailto:amit097@yahoo.com" className="button">Email me</a>
+                            </div>
+                            <div className="projects">
+                                <h3>Projects</h3>
+                                <p>Explore three distinct projects to see how I can help you.</p>
+                                <Link to="/projects" className="button">Learn more</Link>
+                            </div>               
+                            <div className="testimonials">
                                 <h3>Achievements</h3>
                                 <p>Multiple winnings in tech as well as public speaking forums</p>
                                 <Link to="/achievements" className="button">Learn more</Link>
@@ -20,22 +35,7 @@ const Details =() =>
                             <div className="contact">
                                 <h3>Contact</h3>
                                 <p>Get in touch and share your problem and get an effective conceptual solution  </p>
-                                <a href="mailto:amit097@yahoo.com" class="button">Email me</a>
-                            </div>
-                            <div className="projects">
-                                <h3>Projects</h3>
-                                <p>Explore three distinct projects to see how I can help you.</p>
-                                <Link to="/projects" className="button">Learn more</Link>
-                            </div>               
-                            <div class="testimonials">
-                                <h3>Achievements</h3>
-                                <p>Multiple winnings in tech as well as public speaking forums</p>
-                                <a href="/achievements" class="button">Learn more</a>
-                            </div>
-                            <div className="contact">
-                                <h3>Contact</h3>
-                                <p>Get in touch and share your problem and get an effective conceptual solution  </p>
-                                <a href="mailto:amit097@yahoo.com" class="button">Email me</a>
+                                <a href="mailto:amit097@yahoo.com" className="button">Email me</a>
                             </div>
                             
                     </div>

@@ -20,6 +20,7 @@ const isActive = (path) => location.pathname === path;
   return (
     <div className={`toggle-container ${isToggled?"active":""}`}  onClick={toggleButton}>
       <div className={`toggle-circle ${isToggled ? "active" : ""}`}></div>
+      
       <span className={`toggle-text ${isToggled?"active":""}`}>{isToggled ?(
         <div className="toggle-links"
          onClick={(e) => e.stopPropagation()}>
@@ -30,7 +31,7 @@ const isActive = (path) => location.pathname === path;
           <Link to="/achievements"
           className={`toggle-link ${isActive("/achievements")?"active":""}`}>Achievements</Link>
           <Link to="/experience"
-          className={`toggle-link ${isActive("/expereince")?"active":""}`}>Experience</Link>
+          className={`toggle-link ${isActive("/experience")?"active":""}`}>Experience</Link>
         </div>
       )  :("Why Hire Amit?")}</span>
     </div>

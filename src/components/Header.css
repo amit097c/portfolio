@@ -8,18 +8,30 @@
     background-color: #ff4820;
     color: white;
   }
+
   
 .branding h1
   {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color:black;
-    font-family: sans-serif;
+    font-weight: bold;
+    font-family:  fantasy;
+    font-weight: 100;
+   
+   
+  }
+.branding p
+  {
+    font-size: 1rem;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
    
   }
 .branding
-{
+ {
     text-align: left;
-}  
+ }  
 nav
  {
     background-color:#ff4820 ;

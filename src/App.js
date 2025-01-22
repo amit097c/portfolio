@@ -12,8 +12,10 @@ import Experience from "./pages/Experience";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <Router>
+    
+    <Router basename="/portfolio">
       <div className="App">
+     
         {/* Define Routes for Navigation */}
         <Routes>
           {/* Home Route */}
@@ -24,6 +26,7 @@ function App() {
           <Route path="/experience" element={<Experience/>} />
           {/* Additional routes can be added here */}
         </Routes>
+       
       </div>
     </Router>
   );
