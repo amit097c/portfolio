@@ -88,7 +88,7 @@ const Projects = () => {
 
       {/* Hero Section */}
       <section className="projects-hero">
-        <h1 className="section-title">Projects</h1>
+        <h1 className="section-title-h1">Projects</h1>
         <p className="section-description">
           A showcase of some of the exciting tools I've worked on, featuring innovative solutions and creative designs.
         </p>
@@ -103,6 +103,10 @@ const Projects = () => {
        {isModalOpen && (
         <div className="modal-overlay" onClick={toggleModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              {/* Close Button */}
+      <button className="modal-close-button" onClick={toggleModal}>
+        ×
+      </button>
           <section className="projects-content">
               <div className="project-details">
                 <h2>{selectedProject.name}</h2>
@@ -118,8 +122,8 @@ const Projects = () => {
                     Live
                   </button>
                   
-                  <button className="btn btn-details">Details</button>
-                  <button className="btn btn-feedback">Feedback</button>
+                  {/* <button className="btn btn-details">Details</button>
+                  <button className="btn btn-feedback">Feedback</button> */}
                   
                   <button className="btn btn-github" onClick={() => window.open(selectedProject.github, '_blank')}>GitHub</button>
                  

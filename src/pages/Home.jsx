@@ -14,9 +14,9 @@ const Home = () => {
       <AboutMe />
      
       {/* About Me Section */}
-      <section id="details">
+      
         <Details />
-      </section>
+      
       {/* Footer Section */}
       <Footer />
     </div>
